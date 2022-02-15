@@ -5,7 +5,30 @@
 @import 'global';
 
 
-
+.header{
+    background-color: #18212D;
+    padding: 180px 0 45px;
+    &__content{
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+    &__title{
+        width: 400px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 54px;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+    }
+    &__text{
+        width: 360px;
+        font-size: 14px;
+        line-height: 1.57;
+        text-transform: uppercase;
+    }
+}
 
 
 @import 'media';
